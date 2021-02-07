@@ -59,7 +59,7 @@ const ingredients = meal => {
     div.innerHTML = `
     <img src="${meal.strMealThumb}">
     <h2><i>${meal.strMeal}</i></h2>
-    <h4><i>Made By:</i></h4>`;
+    <h4 style="color: brown;"><i>Made By:</i></h4>`;
 
     ul.style.listStyleType = "none";
 
