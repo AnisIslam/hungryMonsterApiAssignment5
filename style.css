@@ -1,0 +1,39 @@
+#items img{
+    width: 100%;
+   
+}
+#items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    
+}
+#items h2{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+#items div{
+    border-radius: 10px;
+    background-color: lightblue;
+}
+#details{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    margin-bottom: 20px;
+    
+}
+#details div{
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+
+#details img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
