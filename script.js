@@ -48,6 +48,8 @@ const displayItems = data => {
     }
 
 }
+
+
 // functionalities for details of item
 const ingredients = meal => {
     const details = document.getElementById('details');
